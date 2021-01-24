@@ -20,5 +20,5 @@ Kaggle diary for Cassava Leaf Disease Classification.
 
 ### 1/24
 一応Notebookは完成したが、なぜかtrain_lossとvalidation_lossが反対に動いてしまう...
-<img src="figure/train.png">
-<img src="figure/val.png">
+<img src="figure/train.png" width="300" height="200">
+<img src="figure/val.png" width="300" height="200">
