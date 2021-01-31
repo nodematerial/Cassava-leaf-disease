@@ -22,3 +22,28 @@ Kaggle diary for Cassava Leaf Disease Classification.
 一応Notebookは完成したが、なぜかtrain_lossとvalidation_lossが反対に動いてしまう...
 <img src="figure/train.png" width="300" height="200">
 <img src="figure/val.png" width="300" height="200">
+
+### 1/31
+紆余曲折を経て、バグを取り除くことに成功した。加えて、自分が納得の行く画像分類タスク用のpipelineを得た。
+やっとスタートラインに立てた気がする。
+
+|experiment_name |experiment_1|
+|----|----|
+|model_arch |resnext50_32x4d|
+|img_size |256|
+|epochs |15|
+|train_bs |32|
+|valid_bs |32|
+|T_max|15|
+|lr|0.0001|
+|num_workers |2|
+
+|result |experiment_1|
+|----|----|
+|train_loss|0.2711|
+|valid_loss|0.4091|
+|train_accuracy|0.9051|
+|valid_accuracy|0.8654|
+
+とりあえず実験はうまくいった
+
